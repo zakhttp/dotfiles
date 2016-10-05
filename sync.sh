@@ -15,3 +15,11 @@ cp -avr ~/.vim .vim;
 
 echo "copying .vimrc";
 cp ~/.vimrc .vimrc;
+
+echo "copying .zshrc";
+cp ~/.zshrc .zshrc;
+
+echo "copying .xinitrc";
+cp ~/.xinitrc .xinitrc;
+
+
