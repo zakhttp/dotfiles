@@ -5,7 +5,7 @@ cp -avr ~/.config/gtk-3.0/  .config/gtk-3.0/;
 cp -avr ~/.config/i3        .config/i3/;
 
 echo "copying fonts";
-cp ~/fonts fonts;
+cp -avr ~/fonts fonts;
 
 echo "copying .Xdefaults";
 cp ~/.Xdefaults .Xdefaults;
